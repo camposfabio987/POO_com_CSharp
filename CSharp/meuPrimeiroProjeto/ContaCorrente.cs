@@ -22,4 +22,10 @@ public class ContaCorrente
         }
             return false;
     }
+
+    public bool Depositar(double valorDepositar)
+    {
+            this.Saldo = this.Saldo + valorDepositar;
+            return true;
+        }
 }
